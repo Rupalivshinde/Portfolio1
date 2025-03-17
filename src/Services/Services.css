@@ -1,0 +1,267 @@
+/* General Styles */
+.services {
+    position: relative;
+    padding: 8rem 2rem;
+    color: white;
+}
+
+.services h2 {
+    text-align: center;
+    font-family: regular;
+    font-size: 2.5rem;
+}
+
+span {
+    color: aqua;
+}
+
+.services h5 {
+    text-align: center;
+    font-family: regular;
+    font-size: 1rem;
+}
+
+.services p {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: regular;
+    font-size: 0.9rem;
+}
+
+/* Box container for the services */
+.box-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 6rem 4rem;
+}
+
+.box-container {
+    height: 50vh;
+    width: auto;
+    background-color: #272E3A;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    padding: 1rem;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.box-container:hover {
+    transform: translateY(-20%);
+    box-shadow: 5px 1px 5px 1px #00FFFF;
+}
+
+.weblogo {
+    height: 50px;
+    width: 50px;
+    margin: 1rem 1rem;
+}
+
+.box h3 {
+    font-family: regular;
+    font-size: 1.3rem;
+}
+
+.box p {
+    width: 200px;
+    font-family: regular;
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.box h5 {
+    padding-top: 1.4rem;
+    font-family: regular;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.right {
+    width: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/* Responsive Styles */
+
+/* 768px and below */
+@media (max-width: 768px) {
+    .services {
+        padding: 5rem 1rem;
+    }
+
+    .services h2 {
+        font-size: 2rem;
+    }
+
+    .box-contain {
+        margin: 4rem 2rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .box-container {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+    }
+
+    .box h3 {
+        font-size: 1.2rem;
+    }
+
+    .box p {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .box h5 {
+        font-size: 0.9rem;
+    }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+    .services {
+        padding: 4rem 1rem;
+    }
+
+    .services h2 {
+        font-size: 1.8rem;
+    }
+
+    .box-contain {
+        margin: 3rem 1rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .box-container {
+        height: auto;
+        width: 100%;
+        margin: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box h3 {
+        font-size: 1.1rem;
+    }
+
+    .box p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .box h5 {
+        font-size: 0.85rem;
+    }
+
+    .weblogo {
+        height: 40px;
+        width: 40px;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .right {
+        width: 15px;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .services {
+        position: absolute;
+        top: 214%
+    }
+
+    .services h2 {
+        font-size: 1.8rem;
+    }
+
+    .box-contain {
+        margin: 3rem 1rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .box-container {
+        height: auto;
+        width: 100%;
+        margin: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box h3 {
+        font-size: 1.1rem;
+    }
+
+    .box p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .box h5 {
+        font-size: 0.85rem;
+    }
+
+    .weblogo {
+        height: 40px;
+        width: 40px;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .right {
+        width: 15px;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .services {
+        position: absolute;
+        top: 260%
+    }
+
+    .services h2 {
+        font-size: 1.8rem;
+    }
+
+    .box-contain {
+        margin: 3rem 1rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .box-container {
+        height: auto;
+        width: 100%;
+        margin: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box h3 {
+        font-size: 1.1rem;
+    }
+
+    .box p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .box h5 {
+        font-size: 0.85rem;
+    }
+
+    .weblogo {
+        height: 40px;
+        width: 40px;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .right {
+        width: 15px;
+        margin-top: 0.5rem;
+    }
+}

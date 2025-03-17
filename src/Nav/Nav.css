@@ -1,0 +1,224 @@
+.nav {
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 2.5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav.scrolled {
+    background-color: #272E3A;
+    border-radius: 28px;
+    /* Change to the desired color */
+}
+
+.logo h2 {
+    font-family: regular;
+    color: #00EEFF;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-left: 2rem;
+}
+
+.menu {
+    text-align: center;
+    padding-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: medium;
+    letter-spacing: 0.5rem;
+}
+
+.menu svg {
+    right: 4rem;
+    font-weight: 900;
+    color: #00EEFF;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 280px;
+    background-color: #1F242D;
+    color: white;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.side-nav.open {
+    transform: translateX(0);
+}
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 20px 20px rgb(16, 194, 225);
+    z-index: 999;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: regular;
+    color: #00EEFF;
+    font-size: 1.5rem;
+}
+
+.close-icon {
+    font-size: 2.1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebar h3 {
+    margin: 1rem 1rem;
+    height: 0.01rem;
+    background-color: rgb(123, 116, 116);
+}
+
+.sidebar ul {
+    padding-top: 2rem;
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: 900;
+    font-family: medium;
+    cursor: pointer;
+}
+
+.sidebar h6 {
+    padding: 2rem 0;
+    font-family: medium;
+    color: gray;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.linked {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.links:hover {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width:846px) {
+    .nav {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 629px) {
+    .nav {
+        padding: 1rem 0rem;
+    }
+
+    .logo h2 {
+        font-size: 1.6rem;
+    }
+
+
+    .menu h4 {
+        font-size: 1rem;
+    }
+
+    .menu svg {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .nav {
+        padding: 1rem 0rem;
+    }
+
+    .logo h2 {
+        font-family: medium;
+        font-size: 1.4rem;
+    }
+
+    .menu h4 {
+        font-size: 1rem;
+    }
+
+    .menu svg {
+        font-size: 1.5rem;
+    }
+
+    .logo1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav {
+        padding: 1rem 0rem;
+    }
+
+    .logo h2 {
+        font-family: medium;
+        font-size: 1.4rem;
+    }
+
+    .menu {
+
+        padding-right: 1rem;
+
+    }
+
+    .menu h4 {
+        font-size: 1rem;
+    }
+
+    .menu svg {
+        font-size: 1.9rem;
+    }
+
+    .logo1 {
+        font-size: 1.1rem;
+    }
+}

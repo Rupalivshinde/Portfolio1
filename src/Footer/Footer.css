@@ -1,0 +1,32 @@
+.footer {
+    padding: 5rem 1rem 15rem 1rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+
+    color: white;
+}
+
+.icon svg {
+    height: 23px;
+    width: 23px;
+}
+
+.icon svg:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.footer p {
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family: regular;
+    font-weight: 100;
+    /* font-size: 0.7rem; */
+
+}
