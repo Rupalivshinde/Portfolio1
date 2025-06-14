@@ -73,7 +73,17 @@ function Work() {
                             </div>
 
                         </div>
+ <div className="card-container">
+                            <div className="card">
+                                <img src="https://www.lifevisionindia.com/public/Blogs/1747652710.jpeg" alt="" />
+                                <h3>Website <span>Truekind</span></h3>
+                                <div className="btn">
+                                    <button> <a href='https://truekind-skincareweb.netlify.app/'>Preview</a></button>
+                                    <button> <a href='https://github.com/Rupalivshinde/Truekind'>Github</a></button>
+                                </div>
+                            </div>
 
+                        </div>
                        
                         <div className="card-container">
                             <div className="card">
@@ -86,6 +96,7 @@ function Work() {
                             </div>
 
                         </div>
+                       
                     </div>
                 </div>
                 <Footer />
