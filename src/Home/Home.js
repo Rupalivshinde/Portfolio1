@@ -28,7 +28,7 @@ function Home() {
                 <h1>And I'm a <span className='span1'>{text}</span> </h1>
                 <p >Welcome to my portfolio!<br/>
 I created this website to showcase all my projects and highlight my skills as a Frontend Developer. Each project reflects my learning journey, creativity, and passion for building clean, responsive, and user-friendly web applications.</p>
-                <button> <a href="https://drive.google.com/file/d/1mbWEk9pDYn9IEKsOJi-7HpthHFqSzfFX/view?usp=sharing" target='_blank'>Download CV</a><FaArrowDown /></button>
+                <button> <a href="https://drive.google.com/file/d/1B93j0WJCeMypwKYzkN0E_dRGJrM9VR7J/view?usp=sharing" target='_blank'>Download CV</a><FaArrowDown /></button>
 
             </div>
 
