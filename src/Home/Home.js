@@ -19,15 +19,15 @@ function Home() {
         <>
 
 
-            <div className="circle">
-                <img src="https://elianajade.com/assets/profile-img-B51wlMEV.png" alt="" />
-            </div>
+           
             <div className='home' id='home'>
+                
                 <h2>Hello There,</h2>
                 <h1>My Name's <span>Rupali Shinde</span></h1>
                 <br />
                 <h1>And I'm a <span className='span1'>{text}</span> </h1>
-                <p>Welcome To My Portfolio, I Did This Website To See All My Projects, I Wish This Portfolio Like You</p>
+                <p >Welcome to my portfolio!<br/>
+I created this website to showcase all my projects and highlight my skills as a Frontend Developer. Each project reflects my learning journey, creativity, and passion for building clean, responsive, and user-friendly web applications.</p>
                 <button> <a href="https://drive.google.com/file/d/1mbWEk9pDYn9IEKsOJi-7HpthHFqSzfFX/view?usp=sharing" target='_blank'>Download CV</a><FaArrowDown /></button>
 
             </div>

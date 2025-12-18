@@ -121,16 +121,7 @@ button:hover {
 }
 
 
-.circle {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    height: 15rem;
-    width: 15rem;
 
-    border-radius: 50%;
-    transform: translateX(50%);
-}
 
 
 button a {
@@ -197,16 +188,7 @@ button a {
     }
 
 
-    .circle {
-        position: absolute;
-        top: 13%;
-        left: 8%;
-        height: 15rem;
-        width: 15rem;
-        right: 28%;
-
-        border-radius: 12rem;
-    }
+    
 
     .footer-nav {
         display: flex;
@@ -279,23 +261,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
-
+   
     .footer-nav {
         display: flex;
         align-items: center;
@@ -391,22 +357,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+   
 
     .footer-nav {
         display: flex;
@@ -480,22 +431,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+   
 
     .footer-nav {
         display: flex;
@@ -568,22 +504,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+  
 
     .footer-nav {
         display: flex;
@@ -599,7 +520,8 @@ button a {
 
 @media (max-width:375px) {
     .home {
-        padding-top: 9rem;
+        position: absolute;
+        top: 13%;
         padding-right: 2rem;
     }
 
@@ -657,22 +579,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+    
 
     .footer-nav {
         display: flex;
@@ -754,22 +661,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+   
 }
 
 
@@ -826,22 +718,7 @@ button a {
         transform: scale(0.9);
     }
 
-    .circle {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+   
 
     .footer-nav {}
 
@@ -874,11 +751,13 @@ button a {
 
 @media (max-width:430px) {
     .home {
+        position: absolute;
+        top: 10%;
         padding-left: 3rem;
     }
 
     .home h2 {
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-family: medium;
         font-weight: 400;
     }
@@ -889,7 +768,7 @@ button a {
 
     .home h1 {
         display: inline;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         font-family: medium;
         font-weight: 400;
 
@@ -901,10 +780,10 @@ button a {
 
     .home p {
         width: 100%;
-        line-height: 1.9rem;
+        line-height: 2.5rem;
         font-family: regular;
-        padding-top: 1rem;
-        font-size: 1.1rem;
+        padding-top: 3rem;
+        font-size: 1.4rem;
         color: rgba(237, 240, 243, 0.765);
 
 
@@ -931,23 +810,7 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
-
+   
     .footer-nav {
         display: flex;
         align-items: center;
@@ -989,7 +852,8 @@ button a {
 
 @media (max-width: 414px) {
     .home {
-        padding-left: 3rem;
+       position: absolute;
+       top: 15%;
     }
 
     .home h2 {
@@ -1015,7 +879,7 @@ button a {
 
     .home p {
         width: 100%;
-        line-height: 1.9rem;
+        line-height: 2.5rem;
         font-family: regular;
         padding-top: 1rem;
         font-size: 1.1rem;
@@ -1039,23 +903,7 @@ button a {
         transform: scale(0.9);
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
-
+  
     .footer-nav {
         display: flex;
         align-items: center;
@@ -1153,27 +1001,26 @@ button a {
 
     }
 
-    .circle {
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        height: 12rem;
-        width: 12rem;
-
-        border-radius: 50%;
-        transform: translate(-80%, 0%);
-    }
-
-    .circle img {
-        height: 18rem;
-        width: 18rem;
-        object-fit: cover;
-    }
+  
 }
 
 
 
 @media (max-width:768px) {
+     .home {
+        position: absolute;
+        top: 15%;
+    }
+      .home p {
+        width: 100%;
+        line-height: 2.4rem;
+        font-family: regular;
+        padding-top: 1rem;
+        font-size: 1.4rem;
+        color: rgba(237, 240, 243, 0.765);
+
+
+    }
     .footer-nav {
         display: flex;
         align-items: center;

@@ -38,20 +38,44 @@ img {
 }
 
 .scroll {
-    position: absolute;
-    top: 30rem;
-    left: 25%;
-    height: 120px;
-    width: 120px;
-    background-color: #FFFFFF;
-    border-radius: 12rem;
-    animation: scroll 5s linear infinite;
+  position: absolute;
+  top: 80%;
+ left: 30%;
+  width: 220px;
+  height: 220px;
+  transform: translate(-50%, -50%);
 }
 
-.scroll img {
-    height: 120px;
-    width: 120px;
-    z-index: -1;
+/* White center circle */
+.white-circle {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  background: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Circular text layer */
+.circular-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  animation: spin 14s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes scroll {
@@ -369,11 +393,7 @@ img {
         text-align: start;
     }
 
-    .scroll {
-        top: 82rem;
-        left: 60%;
-        transform: translateX(-50%);
-    }
+    
 
 
     .progress {
@@ -565,11 +585,12 @@ img {
     .pro-contain p {
         margin: 1rem 5rem;
         text-align: start;
+        line-height: 2.1rem;
     }
 
     .scroll {
-        top: 75rem;
-        left: 60%;
+        top: 73rem;
+        left: 80%;
         transform: translateX(-50%);
     }
 
@@ -637,20 +658,15 @@ img {
 
 @media (max-width:414px) {
     .about {
-        padding: 63rem 1rem;
+        padding: 58rem 1rem;
     }
 
     .about-contain h2 {
+        padding-bottom: 2rem;
         font-size: 1.8rem;
     }
 
-    .about_img {
-        margin-top: 1rem;
-        height: 250px;
-        width: 250px;
-        object-fit: cover;
-        border-radius: 1rem;
-    }
+    
 
     .about-contain span {
         font-size: 1.8rem;
@@ -660,12 +676,12 @@ img {
         position: relative;
         margin: 0rem auto;
         width: 60%;
-        height: 82%;
+        height: 102%;
     }
 
     .scroll {
         position: absolute;
-        top: 79rem;
+        top: 74rem;
         left: 65%;
         height: 80px;
         width: 80px;
@@ -681,14 +697,15 @@ img {
 
     .pro-contain {
         width: 100%;
-        top: 77%;
+        top: 83%;
     }
 
     .pro-contain p {
-        font-size: 0.9rem;
+        font-size:1.2rem;
         text-align: start;
         width: 76%;
         padding-right: 1rem;
+        line-height: 1.7rem;
     }
 
     .progress {
@@ -727,9 +744,10 @@ img {
     }
 
     .progress h2 {
-        top: 3.5rem;
-        left: 8rem;
-        width: 11rem;
+        margin: 0;           /* removes extra space */
+  line-height: 1;     /* reduces text height */
+  padding: 0;   
+   width: 11rem;
     }
 
     .progress h4 {
@@ -755,10 +773,14 @@ img {
 
 @media (max-width: 375px) {
     .about {
+        height: auto;
+        position: absolute;
+       top:-20%;
         padding: 60rem 1rem;
     }
 
     .about-contain h2 {
+        padding-bottom:3rem;
         font-size: 1.8rem;
     }
 
@@ -770,12 +792,12 @@ img {
         position: relative;
         margin: 0rem auto;
         width: 60%;
-        height: 82%;
+        height: 105%;
     }
 
     .scroll {
         position: absolute;
-        top: 74rem;
+        top: 76rem;
         left: 65%;
         height: 80px;
         width: 80px;
@@ -791,10 +813,11 @@ img {
 
     .pro-contain {
         width: 100%;
-        top: 78%;
+        top: 70%;
     }
 
     .pro-contain p {
+        line-height: 1.4rem;
         font-size: 0.9rem;
         text-align: start;
     }
@@ -830,14 +853,16 @@ img {
 
     .progress h1 {
         top: 3.5rem;
+        
         left: 8rem;
         width: 9rem;
     }
 
     .progress h2 {
-        top: 3.5rem;
-        left: 8rem;
-        width: 8rem;
+        margin: 0;           /* removes extra space */
+  line-height: 1;     /* reduces text height */
+  padding: 0;   
+   width: 8rem;
     }
 
     .progress h4 {
@@ -859,6 +884,12 @@ img {
 }
 
 @media (max-width:360px) {
+    .about {
+        position: absolute;
+        top: 3%;
+        padding: 58rem 1rem;
+    }
+
     .scroll {
         position: absolute;
         top: 74rem;
@@ -874,5 +905,67 @@ img {
         height: 80px;
         width: 80px;
     }
+    .pro-contain p {
+        font-size:1.1rem;
+        text-align: start;
+        width: 76%;
+        padding-right: 1rem;
+        padding-top: 7rem;
+        line-height: 1.7rem;
+    }
+
+
+}
+@media (max-width:768px) {
+    .about {
+      
+    }
+ .about_img {
+        position: relative;
+        margin: 0rem auto;
+        width: 60%;
+        height: 100%;
+    }
+    .about-contain h2 {
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-contain span {
+        font-size: 1.8rem;
+    }
+
+
+    .scroll {
+        position: absolute;
+        top: 74rem;
+        left: 62%;
+        height: 80px;
+        width: 80px;
+        background-color: #FFFFFF;
+        border-radius: 12rem;
+        animation: scroll 5s linear infinite;
+    }
+
+    .scroll img {
+        height: 80px;
+        width: 80px;
+    }
+    .pro-contain p {
+        font-size:1.1rem;
+        text-align: start;
+        width: 76%;
+        padding-right: 1rem;
+        padding-top: 7rem;
+        line-height: 1.7rem;
+    }
+    .progress h2 {
+        margin: 0;           /* removes extra space */
+  line-height: 1;     /* reduces text height */
+  padding: 0;   
+   width: 23rem;
+    }
+
+
 
 }

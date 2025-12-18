@@ -72,11 +72,11 @@ function Work() {
                         </div>
                          <div className="card-container">
                             <div className="card">
-                                <img src="https://media.istockphoto.com/id/1007768414/photo/blue-sky-with-bright-sun-and-clouds.jpg?s=612x612&w=0&k=20&c=MGd2-v42lNF7Ie6TtsYoKnohdCfOPFSPQt5XOz4uOy4=" alt="" />
-                                <h3>Website <span>Weather</span></h3>
+                                <img src="https://dhunwellness.com/cdn/shop/files/wp-2.jpg?v=1748241684&width=950" alt="" />
+                                <h3>Website <span>Dhun</span></h3>
                                 <div className="btn">
-                                    <button> <a href='https://rupalivshinde.github.io/Weather/'>Preview</a></button>
-                                    <button> <a href='https://github.com/Rupalivshinde/Weather'>Github</a></button>
+                                    <button> <a href='https://dhun-musictherapy.netlify.app/'>Preview</a></button>
+                                    <button> <a href='https://github.com/Rupalivshinde/dhun'>Github</a></button>
                                 </div>
                             </div>
 
