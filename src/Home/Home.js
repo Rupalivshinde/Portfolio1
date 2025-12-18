@@ -23,7 +23,7 @@ function Home() {
             <div className='home' id='home'>
                 
                 <h2>Hello There,</h2>
-                <h1>My Name's <span>Rupali Shinde</span></h1>
+                <h1>My Name's <span>Rupali Deshmukh</span></h1>
                 <br />
                 <h1>And I'm a <span className='span1'>{text}</span> </h1>
                 <p >Welcome to my portfolio!<br/>

@@ -77,8 +77,8 @@ function Nav() {
                     <h6>Welcome To My Portfolio, I Did This Website To See All My Projects, I Wish This Portfolio Like You</h6>
                     <div className="links">
                         <a href=""><FaFacebookF /></a>
-                        <a href="https://www.linkedin.com/in/rupali-shinde-b65776280/" target="_blank"> <FaLinkedin /></a>
-                        <a href="https://github.com/Rupalivshinde" target="_blank"><FaGithub /></a>
+                        <a href="https://www.linkedin.com/in/rupali-deshmukh-b65776280/" target="_blank"> <FaLinkedin /></a>
+                        <a href="https://github.com/rupalideshmukh237" target="_blank"><FaGithub /></a>
                     </div>
                 </div>
             </div>
